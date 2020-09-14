@@ -1,0 +1,13 @@
+<?php
+
+Exercicio 1
+
+function seculo($ano) {
+  if($ano % 100 == 0) {
+	  $res = $ano / 100;
+	  return intval($res);
+  }
+	$res = $ano /100 + 1;
+	return intval($res);
+
+}

@@ -1,0 +1,24 @@
+<?php 
+
+function CalculaArea($num){
+	
+	switch ($num) {
+		case 1:
+			echo "1 quadrado";
+			break;
+		case 2:
+			echo "5 quadrados";
+			break;
+		case 3:
+			echo "13 quadrados";
+			break;
+		case 4:
+			echo "25 quadrados";
+			break;
+		default:
+       echo "Num invalido";
+	}
+
+}
+
+CalculaArea(4);

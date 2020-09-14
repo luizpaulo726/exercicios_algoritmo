@@ -1,0 +1,25 @@
+<?php
+
+function PALINDROMO($palavra) {
+	
+	
+	$palavra = strtolower($palavra);
+	$inversa = strrev($palavra);
+	
+	print_r($inversa);
+	
+	$valor = strcmp($palavra, $inversa);
+	
+	print_r($valor);
+	if ($valor == 0) {
+	   echo "A palavra é palíndroma";
+	}else {
+	   echo "A palavra não é palíndroma";
+	}
+
+
+  
+
+}
+ 
+PALINDROMO('Mussum');
